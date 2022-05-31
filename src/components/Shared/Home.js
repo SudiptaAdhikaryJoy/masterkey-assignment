@@ -48,9 +48,8 @@ export default function Home() {
             <h3>hello</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quis nemo cumque labore soluta, consequatur, exercitationem asperiores, autem inventore tempora quasi ab quibusdam. Odio reiciendis accusamus eius vel dignissimos consequuntur.</p>
         </div>
-        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-4 text-md-start text-lg-start text-xl-start p-3 mb-5 bg-body rounded">
-            <h3>hello</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quis nemo cumque labore soluta, consequatur, exercitationem asperiores, autem inventore tempora quasi ab quibusdam. Odio reiciendis accusamus eius vel dignissimos consequuntur.</p>
+        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-4  p-2 mb-5 bg-body">
+            <h3 className="align-middle py-4 mt-5">Artwork for title 1</h3>
         </div>
     </div>
 </div>
