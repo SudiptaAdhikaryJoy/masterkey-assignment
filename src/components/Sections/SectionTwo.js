@@ -5,6 +5,7 @@ export default function SectionTwo() {
   return (
     <div>
         <div className="color container-fluid">
+            <h2 className="pt-3">Review</h2>
         <div className="mx-auto px-5 pt-5 pb-5 d-flex justify-content-around ms-5">
             <div className="col-12 col-md-3 col-lg-2 border rounded-circle py-5 shadow mx-auto">
                 <div className="py-1 text">

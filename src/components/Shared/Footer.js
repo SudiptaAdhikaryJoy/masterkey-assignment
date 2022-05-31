@@ -9,7 +9,9 @@ export default function Footer() {
                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-md-start text-lg-start text-xl-start">
                     <h4 className="mb-4">We are Social</h4>
                     <h4>Follow Us</h4>
-                    
+                    <a href="#"><box-icon type='logo' name='instagram' animation='tada'></box-icon></a>
+                    <a href="#"><box-icon type='logo' name='facebook-circle' animation='tada'></box-icon></a>
+                    <a href="#"><box-icon style={{color:'red'}} name='youtube' type='logo' animation='tada' ></box-icon></a>
                     <h1>LOGO</h1>
                 </div>
                 <div className="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3 text-md-start text-lg-start text-xl-start">
@@ -58,6 +60,7 @@ export default function Footer() {
                     </p>
                 </div>
             </div>
+            <p>Copyright &copy; {new Date().getFullYear()} All Rights Reserved</p>
         </div>
     </>
   )
